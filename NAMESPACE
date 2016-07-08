@@ -1,0 +1,6 @@
+# Export all names
+export(
+	"sBFAC", 
+	"fac", 
+	"mcmc.sampler"
+)

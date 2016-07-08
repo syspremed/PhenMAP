@@ -1,0 +1,9 @@
+Package: PhenMAP
+Type: Package
+Title: sBFAC - a sparse Bayesian FAC model for clustering expression data, finding associated phenotypes and molecular features.
+Version: 1.0
+Date: 2016-06-20
+Author: Gift Nyamundanda gift.nyamundanda@icr.ac.uk 
+Maintainer: Gift Nyamundanda <gift.nyamundanda@icr.ac.uk>
+Description: PhenMAP package contains R scripts for fitting the sBFAC model.
+License: GPL (>= 2)
