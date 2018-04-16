@@ -72,7 +72,7 @@ function(Y,X,fmin=1,fmax=2,gmin=1,gmax=2,w0=1,g0=nrow(Y),mcmc=20000)
   ####################################
   ### installing missing R packages 
   installed <- installed.packages()[,1]                              
-  required <- c("mvtnorm", "mclust", "MetabolAnalyze", "stats")
+  required <- c("mvtnorm", "mclust", "MetabolAnalyze", "stats","MCMCpack")
   toinstall <- required[!(required %in% installed)]
   if(length(toinstall) != 0){
     install.packages(toinstall)
